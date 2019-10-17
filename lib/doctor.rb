@@ -19,7 +19,7 @@ class Doctor
     appointments.map(&:patient)
   end
   
-  def new_appointment(name, genre)
-    #Appointment.new(name, self, genre)
+  def new_appointment(date, patient)
+    #Appointment.new(date, self, patient)
   end
 end 
